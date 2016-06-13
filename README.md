@@ -6,17 +6,15 @@
 
 First download and load the 3d js file after jQuery and before your script.
 
-Next, call animate3d on an element or group of elements
+Next, call animate3d on an element or group of elements.
 
 ```html
 <script src="./scripts/jquery-3.0.0.js"></script>
-<script src="./scripts/3d.js"></script>
-	
-<script>
-```
+<script src="./scripts/3d.js"></script>	
+<script>```
 ```javascript
-	$('div').animate3d({});
-```
+	$('element').animate3d({});
+``` 
 ```html
 </script>
 ```
@@ -25,8 +23,8 @@ Its that easy! Passing in an empty object uses all of the default settings of 3d
 
 ```javascript
 $('element').animate3d({
-	perspective:   1000px,
-	distance:      50px,
+	perspective:   "1000px",
+	distance:      50,
 	rotation:      0.5,
 	startX:        0,
 	startY:        0
@@ -34,6 +32,35 @@ $('element').animate3d({
 ```	
 ## Explanation
 
-Go to ... for a live demo to really see how Animate3d works
+Go to ... for a live demo to really see how Animate3d works!
 
 The element you call Animate3d on is the 'canvas', and each child element a 3d layer. When you mouse over the element you will see the perspecive change and each child element will appear closer to you than the last.
+
+Simply place and position the child-elements how you want them to look, without using the transform css property (thats the one the animate3d uses to give its effect).
+
+#### Perspective
+
+Pixel Value 
+- Sets the perspective on the element
+
+See w3s explanation - [Perspective](http://www.w3schools.com/cssref/css3_pr_perspective.asp)
+
+#### Distance
+
+number greater than 0 
+- Distance controls the perceived space between layers
+
+#### Rotation
+
+Number between 0 and 1 
+- Rotation controls how much the element is tilted during mouse over. If rotation is at 1 the element will tilt 90 degrees with the mouse at the edge of the element.
+
+#### StartX
+
+Number between -1 and 1 
+- Sets the default view of the element tilted along the X axis
+
+#### StartY
+
+Number between -1 and 1 
+- Sets the default view of the element tilted along the Y axis

@@ -6,7 +6,7 @@ $(document).ready(function(){
    });
 
    $('.animate-2').animate3d({
-      distace: 10,
+      distance: 10,
       rotation: 0.3,
       startX: -0.1,
       startY: -0.1
