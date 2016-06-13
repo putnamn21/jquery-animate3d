@@ -8,21 +8,22 @@ First download and load the 3d js file after jQuery and before your script.
 
 Next, call animate3d on an element or group of elements
 
-'''html
+```html
 <script src="./scripts/jquery-3.0.0.js"></script>
 <script src="./scripts/3d.js"></script>
 	
 <script>
-'''
-'''javascript
+```
+```javascript
 	$('div').animate3d({});
-'''
-'''html
+```
+```html
 </script>
-'''
+```
 	
 Its that easy! Passing in an empty object uses all of the default settings of 3dAnimate. You can customize by passing in any of the following key|value pairs. Shown below are the default values.
-'''javascript
+
+```javascript
 $('element').animate3d({
 	perspective:   1000px,
 	distance:      50px,
@@ -30,7 +31,7 @@ $('element').animate3d({
 	startX:        0,
 	startY:        0
 });
-'''	
+```	
 ## Explanation
 
 Go to ... for a live demo to really see how Animate3d works
