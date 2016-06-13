@@ -1,0 +1,11 @@
+{
+  "name": "jquery-3d-extensioh",
+  "version": "1.0.0",
+  "description": "plugin making 3d graphics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Putnam <nathanputnam2@gmail.com>",
+  "license": "ISC"
+}

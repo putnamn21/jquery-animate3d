@@ -1,0 +1,21 @@
+body {
+   background-color: #2f477b;
+   color: #e6e6e6;
+}
+.container {
+   
+}
+.image-container {
+   width: 800px;
+   height: 600px;
+   background-color: #c1c1c1;
+   margin: 100px;
+   position: relative;
+}
+
+.image-container img {
+   width: 600px;
+   position: absolute;
+   top: 50px;
+   left: 100px;
+}
