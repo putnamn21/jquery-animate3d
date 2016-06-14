@@ -2,26 +2,41 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <title>Fun Page</title>
+   <title>jQuery animate3d</title>
    <link rel="stylesheet" href="./styles/bootstrap.css">
    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-   <main class="container">
-      <h1 class="text-center">Hello World</h1>
-      <div class="image-container animate-1">
-         <img src="./img/world-map.png" alt="world map">
-         <img src="./img/layer.svg" alt="places I have been">
-      </div>
-      <div class="image-container animate-2">
-         <img src="./img/world-map.png" alt="world map">
-         <img src="./img/layer.svg" alt="places I have been">
-      </div>
-      <div class="image-container animate-1 animated-text">
-        <p>Animate3d is the bee's knee's</p>
-        <p>Animate3d is the bee's knee's</p>
-        <p>Animate3d is the bee's knee's</p>
-      </div>
+   <main class="container text-center">
+      <h1 class="text-center">animate3d Jquery extension</h1>
+      
+      <div class="row">
+         
+         <div class="col-md-6">
+           <h2>Default</h2>
+            <div class="image-container animate-1">
+               <img src="./img/world-map.png" alt="world map">
+               <img src="./img/layer.svg" alt="places I have been">
+               <img src="./img/layer.svg" alt="places I have been">
+            </div>
+         </div>
+         
+         <div class="col-md-6">
+            <ul class="nav nav-pills">
+               <li class="active"><a data-option='{"distance": 15}'>Distace = 15</a></li>
+               <li><a data-option='{"rotation": 0.1}'>Rotation = 0.1</a></li>
+               <li><a data-option='{"perspective": 250}'>Perspective = 250</a></li>
+               <li><a data-option='{"startX": 0.2, "startY": 0.2}'>Start X/Y = 0.2/0.2</a></li>
+            </ul>
+            <div class="image-container animate-2">
+               <img src="./img/world-map.png" alt="world map">
+               <img src="./img/layer.svg" alt="places I have been">
+               <img src="./img/layer.svg" alt="places I have been">
+            </div>
+         </div>
+         
+      </div>   
+         
    </main>
 
 <script src="./scripts/jquery-3.0.0.js"></script>

@@ -5,33 +5,32 @@ body {
 .container {
    
 }
+
 .image-container {
-   width: 800px;
-   height: 600px;
-   background-color: #c1c1c1;
-   margin: 100px;
+   width: 100%;
+   padding-bottom: 65%;
+   background-color: rgba(255, 255, 255, 0.5);
    position: relative;
+   margin-bottom: 50px;
 }
-
+h1 {
+   margin: 100px 0 50px 0;
+}
+h2 {
+   margin-top: 28px;
+   margin-bottom: 15px;
+}
 .image-container img {
-   width: 600px;
+   width: 90%;
+   left: 5%;
+   top: 8%;
    position: absolute;
-   top: 50px;
-   left: 100px;
 }
 
-.animated-text p {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	top: 50%;
-	left: 30%;
+.nav-pills {
+   margin: 20px 0 15px 0;
 }
-.animated-text p:nth-child(2) {
-	top: 50%;
-	left: 50%;
-}
-.animated-text p:nth-child(3) {
-	top: 50%;
-	left: 70%;
+
+.nav-pills li {
+   cursor: pointer;
 }

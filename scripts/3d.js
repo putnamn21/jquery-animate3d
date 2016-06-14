@@ -32,6 +32,17 @@ jQuery.fn.extend({
                  animate,
                  setCssStyle
                );
+               $(window).resize(function(){
+                  animate3dElement(
+                     element,
+                     params.distance,  
+                     params.rotation, 
+                     params.startX, 
+                     params.startY,
+                     animate,
+                     setCssStyle
+                  );
+               });
          });
       
       //sets an animation for each element

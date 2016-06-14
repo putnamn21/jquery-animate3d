@@ -23,7 +23,7 @@ Its that easy! Passing in an empty object uses all of the default settings of 3d
 
 ```javascript
 $('element').animate3d({
-	perspective:   "1000px",
+	perspective:   1000p,
 	distance:      50,
 	rotation:      0.5,
 	startX:        0,
@@ -40,27 +40,27 @@ Simply place and position the child-elements how you want them to look, without 
 
 #### Perspective
 
-Pixel Value 
+Number greater than 0. Default is 1000.
 - Sets the perspective on the element
 
 See w3s explanation - [Perspective](http://www.w3schools.com/cssref/css3_pr_perspective.asp)
 
 #### Distance
 
-number greater than 0 
+Number greater than 0. Default is 50.
 - Distance controls the perceived space between layers
 
 #### Rotation
 
-Number between 0 and 1 
+Number between 0 and 1. Default is 0.5.
 - Rotation controls how much the element is tilted during mouse over. If rotation is at 1 the element will tilt 90 degrees with the mouse at the edge of the element.
 
 #### StartX
 
-Number between -1 and 1 
+Number between -1 and 1. Default is 0.
 - Sets the default view of the element tilted along the X axis
 
 #### StartY
 
-Number between -1 and 1 
+Number between -1 and 1. Default is 0.
 - Sets the default view of the element tilted along the Y axis
