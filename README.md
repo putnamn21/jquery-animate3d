@@ -35,7 +35,7 @@ $('element').animate3d({
 ```	
 ## Explanation
 
-Go to [animate3d](nathan-putnam.me/animate3d) for a live demo to really see how Animate3d works!
+Go to [animate3d](http://nathan-putnam.me/animate3d) for a live demo to really see how Animate3d works!
 
 The element you call Animate3d on is the 'canvas', and each child element a 3d layer. When you mouse over the element you will see the perspecive change and each child element will appear closer to you than the last.
 
