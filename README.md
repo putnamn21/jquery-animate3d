@@ -2,7 +2,7 @@
 
 3dAnimate is a jQuery plugin that allows you to give any portion of your website a 3d mouse over effect.
 
-Demo - [animate3d](http://putnamn21.github.io/jquery_animate3d)
+Demo - [animate3d](http://nathan-putnam.me/animate3d)
 
 ## Get Started
 
